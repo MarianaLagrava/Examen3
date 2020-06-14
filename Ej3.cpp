@@ -5,10 +5,10 @@ using namespace std;
 int anio (void);// declaracion funcion para el año
 int main (void) {// declaracion de main
     
-     cout<< "Determinar su un anio es bisiesto o no"<< endl;
-     cout<< "Ingrese el anio"<< endl;// indicaciones para ingreso de datos
+     cout<< "Determinar su un a"<<char(164)<<"o es bisiesto o no"<< endl;
+     cout<< "Ingrese el a"<<char(164)<<"o" <<endl;// indicaciones para ingreso de datos
      
-      anio (); // invocacion funcion ano
+      anio (); // invocacion funcion anio
 }
 
 
@@ -30,4 +30,4 @@ if(n%400==0){// condicion uno para determinar si es bisiesto o no
      }
   
 
-     
+    
